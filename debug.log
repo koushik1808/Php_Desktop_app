@@ -1,0 +1,1578 @@
+- 22:09:50.234 INFO: --------------------------------------------------------
+- 22:09:50.234 INFO: Started application
+- 22:09:50.234 INFO: Logging to: D:\rms\debug.log
+- 22:09:50.234 INFO: Log level = DEBUG4
+- 22:09:50.250 INFO: Starting Mongoose 3.9c web server
+- 22:09:50.250 INFO: WWW directory: D:\rms\www
+- 22:09:50.250 INFO: Index files: index.html,index.php
+- 22:09:50.250 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:09:50.250 INFO: CGI pattern: **.php$
+- 22:09:50.250 INFO: Hide files patterns: 
+- 22:09:50.250 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:09:50.281 INFO: Web server url: http://127.0.0.1:56100/
+- 22:09:50.281 INFO: remote_debugging_port = 54787
+- 22:09:50.281 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=54787
+- 22:09:50.890 DEBUG: App::OnContextInitialized()
+- 22:09:50.890 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:09:50.890 DEBUG: Window max width/height = 1842/1034
+- 22:09:50.906 DEBUG: GetBrowserWindow(): not found, hwnd = 656442
+- 22:09:50.906 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:09:50.906 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:09:50.906 DEBUG: StoreBrowserWindow(): hwnd = 656442
+- 22:09:51.062 DEBUG: ClientHandler::OnAfterCreated()
+- 22:09:51.062 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:09:51.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=0CAA95EC2324C6E45C186D1BD80F82B0 --mojo-platform-channel-handle=1892 /prefetch:2
+- 22:09:51.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:09:51.032 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FA67A762A5DDE1CB5CBE474928069A44 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FA67A762A5DDE1CB5CBE474928069A44 --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+- 22:09:51.125 DEBUG: OnBrowserCreated()
+[1117/220952.623:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:10:00.312 INFO: GET 200 /
+- 22:10:00.671 INFO: GET 200 /style.css
+- 22:10:00.625 DEBUG: OnContextCreated()
+- 22:10:01.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56100/
+- 22:10:07.687 DEBUG: WM_DESTROY
+- 22:10:07.687 DEBUG: RemoveBrowserWindow(): hwnd = 656442
+- 22:10:07.687 INFO: Stopping Mongoose web server
+- 22:10:07.687 DEBUG: Mongoose webserver stopped immediately
+- 22:10:07.718 DEBUG: OnBeforeClose() hwnd=1049294
+- 22:10:07.734 DEBUG: RemoveBrowserWindow(): hwnd = 1049294
+- 22:10:07.734 DEBUG: GetBrowserWindow(): not found, hwnd = 1049294
+- 22:10:07.734 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:10:07.734 DEBUG: Calling CefQuitMessageLoop()
+- 22:10:07.641 DEBUG: OnBrowserDestroyed()
+- 22:10:07.937 INFO: Ended application
+- 22:10:07.937 INFO: --------------------------------------------------------
+- 22:18:03.250 INFO: --------------------------------------------------------
+- 22:18:03.281 INFO: Started application
+- 22:18:03.281 INFO: Logging to: D:\rms\debug.log
+- 22:18:03.281 INFO: Log level = DEBUG4
+- 22:18:03.281 INFO: Starting Mongoose 3.9c web server
+- 22:18:03.281 INFO: WWW directory: D:\rms\www\index.php
+- 22:18:03.281 INFO: Index files: localhost:8000
+- 22:18:03.281 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:18:03.281 INFO: CGI pattern: **.php$
+- 22:18:03.281 INFO: Hide files patterns: 
+- 22:18:03.281 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:18:03.296 INFO: Web server url: http://127.0.0.1:8000/
+- 22:18:03.296 INFO: remote_debugging_port = 58871
+- 22:18:03.343 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=58871
+- 22:18:04.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=094DF51E441DC5765CE9F4DF863D1A4E --mojo-platform-channel-handle=1968 /prefetch:2
+- 22:18:04.406 DEBUG: App::OnContextInitialized()
+- 22:18:04.406 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:18:04.406 DEBUG: Window max width/height = 1842/1034
+- 22:18:04.406 DEBUG: GetBrowserWindow(): not found, hwnd = 460070
+- 22:18:04.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:18:04.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:18:04.406 DEBUG: StoreBrowserWindow(): hwnd = 460070
+- 22:18:04.687 DEBUG: ClientHandler::OnAfterCreated()
+- 22:18:04.687 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[1117/221804.803:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:18:04.750 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:18:04.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EF53291148E4D1A14392519357414932 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EF53291148E4D1A14392519357414932 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+- 22:18:05.328 DEBUG: OnBrowserCreated()
+- 22:18:07.062 INFO: GET 200 /
+- 22:18:07.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:19:15.953 DEBUG: WM_DESTROY
+- 22:19:15.953 DEBUG: RemoveBrowserWindow(): hwnd = 460070
+- 22:19:15.953 INFO: Stopping Mongoose web server
+- 22:19:15.953 DEBUG: Mongoose webserver stopped immediately
+- 22:19:15.968 DEBUG: OnBeforeClose() hwnd=263300
+- 22:19:15.984 DEBUG: RemoveBrowserWindow(): hwnd = 263300
+- 22:19:15.984 DEBUG: GetBrowserWindow(): not found, hwnd = 263300
+- 22:19:15.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:19:15.000 DEBUG: Calling CefQuitMessageLoop()
+- 22:19:15.172 DEBUG: OnBrowserDestroyed()
+- 22:19:15.453 INFO: Ended application
+- 22:19:15.453 INFO: --------------------------------------------------------
+- 22:21:19.203 INFO: --------------------------------------------------------
+- 22:21:19.203 INFO: Started application
+- 22:21:19.203 INFO: Logging to: D:\rms\debug.log
+- 22:21:19.203 INFO: Log level = DEBUG4
+- 22:21:19.203 INFO: Starting Mongoose 3.9c web server
+- 22:21:19.203 INFO: WWW directory: D:\rms\www\public\index.php
+- 22:21:19.203 INFO: Index files: localhost:8000
+- 22:21:19.203 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:21:19.203 INFO: CGI pattern: **.php$
+- 22:21:19.203 INFO: Hide files patterns: 
+- 22:21:19.203 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:21:19.219 INFO: Web server url: http://127.0.0.1:8000/
+- 22:21:19.219 INFO: remote_debugging_port = 63259
+- 22:21:19.219 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=63259
+- 22:21:19.360 DEBUG: App::OnContextInitialized()
+- 22:21:19.360 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:21:19.360 DEBUG: Window max width/height = 1842/1034
+- 22:21:19.375 DEBUG: GetBrowserWindow(): not found, hwnd = 786576
+- 22:21:19.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:21:19.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:21:19.375 DEBUG: StoreBrowserWindow(): hwnd = 786576
+- 22:21:20.485 DEBUG: ClientHandler::OnAfterCreated()
+- 22:21:20.485 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:21:20.532 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:21:20.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=788AE60488A72AE7C752821A6B33DED5 --mojo-platform-channel-handle=1868 /prefetch:2
+[1117/222120.300:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:21:20.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EF997F03AD6B4A2BBB66E61D1BFFE0C7 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EF997F03AD6B4A2BBB66E61D1BFFE0C7 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 22:21:20.078 DEBUG: OnBrowserCreated()
+- 22:21:21.328 INFO: GET 200 /
+- 22:21:21.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:21:29.578 DEBUG: WM_DESTROY
+- 22:21:29.578 DEBUG: RemoveBrowserWindow(): hwnd = 786576
+- 22:21:29.578 INFO: Stopping Mongoose web server
+- 22:21:29.578 DEBUG: Mongoose webserver stopped immediately
+- 22:21:29.594 DEBUG: OnBeforeClose() hwnd=1377492
+- 22:21:29.594 DEBUG: RemoveBrowserWindow(): hwnd = 1377492
+- 22:21:29.610 DEBUG: GetBrowserWindow(): not found, hwnd = 1377492
+- 22:21:29.610 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:21:29.610 DEBUG: Calling CefQuitMessageLoop()
+- 22:21:29.641 DEBUG: OnBrowserDestroyed()
+- 22:21:29.657 INFO: Ended application
+- 22:21:29.657 INFO: --------------------------------------------------------
+- 22:41:05.250 INFO: --------------------------------------------------------
+- 22:41:05.250 INFO: Started application
+- 22:41:05.250 INFO: Logging to: D:\rms\debug.log
+- 22:41:05.250 INFO: Log level = DEBUG4
+- 22:41:05.250 INFO: Starting Mongoose 3.9c web server
+- 22:41:05.250 INFO: WWW directory: D:\rms\www\public\index.php
+- 22:41:05.250 INFO: Index files: localhost:8000
+- 22:41:05.250 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:41:05.250 INFO: CGI pattern: **.php$
+- 22:41:05.250 INFO: Hide files patterns: 
+- 22:41:05.250 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:41:05.265 INFO: Web server url: http://127.0.0.1:8000/
+- 22:41:05.265 INFO: remote_debugging_port = 63538
+- 22:41:05.296 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=63538
+- 22:41:06.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=38DB1D17348C9C151C1DC72E134078A2 --mojo-platform-channel-handle=1984 /prefetch:2
+- 22:41:07.562 DEBUG: App::OnContextInitialized()
+- 22:41:07.562 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:41:07.578 DEBUG: Window max width/height = 1842/1034
+- 22:41:07.578 DEBUG: GetBrowserWindow(): not found, hwnd = 1902248
+- 22:41:07.578 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:41:07.578 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:41:07.578 DEBUG: StoreBrowserWindow(): hwnd = 1902248
+[1117/224107.069:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:41:07.781 DEBUG: ClientHandler::OnAfterCreated()
+- 22:41:07.781 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:41:07.859 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:41:07.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0697A1F846695B541709AB128607C12B --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0697A1F846695B541709AB128607C12B --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+- 22:41:07.266 DEBUG: OnBrowserCreated()
+- 22:41:31.890 INFO: GET 200 /
+- 22:41:31.391 DEBUG: OnContextCreated()
+[1117/224132.913:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 22:41:33.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:41:33.406 INFO: GET 404 /public/image/login-logo.svg
+- 22:42:25.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 22:42:42.797 DEBUG: OnContextCreated()
+- 22:42:42.765 INFO: POST 500 /login_check
+[1117/224242.571:INFO:CONSOLE(170)] "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools", source: http://127.0.0.1:8000/login_check (170)
+[1117/224242.707:INFO:CONSOLE(175)] "[object Object]", source: http://127.0.0.1:8000/login_check (175)
+[1117/224243.162:INFO:CONSOLE(175)] "Uncaught TypeError: r.join(...).trimEnd is not a function", source: http://127.0.0.1:8000/login_check (175)
+[1117/224243.214:INFO:CONSOLE(170)] "The above error occurred in the <su> component:
+
+    at su (http://127.0.0.1:8000/login_check:175:252372)
+    at $c (http://127.0.0.1:8000/login_check:175:245728)
+    at div
+    at section
+    at tu (http://127.0.0.1:8000/login_check:175:248903)
+    at div
+    at Hf (http://127.0.0.1:8000/login_check:175:282134)
+    at Vf (http://127.0.0.1:8000/login_check:175:283013)
+    at div
+    at $c (http://127.0.0.1:8000/login_check:175:245728)
+    at Xf (http://127.0.0.1:8000/login_check:175:285234)
+    at section
+    at Xy (http://127.0.0.1:8000/login_check:175:412945)
+    at main
+    at ye (http://127.0.0.1:8000/login_check:170:307457)
+    at Se (http://127.0.0.1:8000/login_check:170:308667)
+    at $c (http://127.0.0.1:8000/login_check:175:245728)
+    at Jy (http://127.0.0.1:8000/login_check:175:417348)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, $c.", source: http://127.0.0.1:8000/login_check (170)
+- 22:42:43.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login_check
+- 22:42:52.843 DEBUG: WM_DESTROY
+- 22:42:52.843 DEBUG: RemoveBrowserWindow(): hwnd = 1902248
+- 22:42:52.859 INFO: Stopping Mongoose web server
+- 22:42:52.859 DEBUG: Mongoose webserver stopped immediately
+- 22:42:52.875 DEBUG: OnBeforeClose() hwnd=198656
+- 22:42:52.875 DEBUG: RemoveBrowserWindow(): hwnd = 198656
+- 22:42:52.875 DEBUG: GetBrowserWindow(): not found, hwnd = 198656
+- 22:42:52.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:42:52.890 DEBUG: Calling CefQuitMessageLoop()
+- 22:42:52.094 DEBUG: OnBrowserDestroyed()
+- 22:42:52.250 INFO: Ended application
+- 22:42:52.250 INFO: --------------------------------------------------------
+- 22:50:29.172 INFO: --------------------------------------------------------
+- 22:50:29.172 INFO: Started application
+- 22:50:29.172 INFO: Logging to: D:\rms\debug.log
+- 22:50:29.187 INFO: Log level = DEBUG4
+- 22:50:29.187 INFO: Starting Mongoose 3.9c web server
+- 22:50:29.187 INFO: WWW directory: D:\rms\www\index.php
+- 22:50:29.187 INFO: Index files: localhost:8000
+- 22:50:29.187 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:50:29.187 INFO: CGI pattern: **.php$
+- 22:50:29.187 INFO: Hide files patterns: 
+- 22:50:29.187 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:50:29.203 INFO: Web server url: http://127.0.0.1:8000/
+- 22:50:29.203 INFO: remote_debugging_port = 50815
+- 22:50:29.203 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=50815
+- 22:50:29.359 DEBUG: App::OnContextInitialized()
+- 22:50:29.359 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:50:29.359 DEBUG: Window max width/height = 1842/1034
+- 22:50:29.359 DEBUG: GetBrowserWindow(): not found, hwnd = 3212334
+- 22:50:29.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:50:29.359 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:50:29.359 DEBUG: StoreBrowserWindow(): hwnd = 3212334
+- 22:50:29.500 DEBUG: ClientHandler::OnAfterCreated()
+- 22:50:29.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:50:29.015 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=979441C4F55BA05F70AB0B4AE7140798 --mojo-platform-channel-handle=1852 /prefetch:2
+- 22:50:29.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:50:29.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=733077A32A9EB6FF40F2935FAE041D3D --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=733077A32A9EB6FF40F2935FAE041D3D --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 22:50:29.063 DEBUG: OnBrowserCreated()
+[1117/225029.642:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:50:31.907 DEBUG: OnContextCreated()
+- 22:50:31.547 INFO: GET 200 /
+[1117/225031.490:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 22:50:32.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:50:32.328 INFO: GET 404 /public/image/login-logo.svg
+- 22:50:45.719 DEBUG: WM_DESTROY
+- 22:50:45.719 DEBUG: RemoveBrowserWindow(): hwnd = 3212334
+- 22:50:45.734 INFO: Stopping Mongoose web server
+- 22:50:45.734 DEBUG: Mongoose webserver stopped immediately
+- 22:50:45.765 DEBUG: OnBeforeClose() hwnd=3999540
+- 22:50:45.765 DEBUG: RemoveBrowserWindow(): hwnd = 3999540
+- 22:50:45.765 DEBUG: GetBrowserWindow(): not found, hwnd = 3999540
+- 22:50:45.765 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:50:45.765 DEBUG: Calling CefQuitMessageLoop()
+- 22:50:45.141 DEBUG: OnBrowserDestroyed()
+- 22:50:45.984 INFO: Ended application
+- 22:50:45.984 INFO: --------------------------------------------------------
+- 22:51:45.172 INFO: --------------------------------------------------------
+- 22:51:45.172 INFO: Started application
+- 22:51:45.172 INFO: Logging to: D:\rms\debug.log
+- 22:51:45.172 INFO: Log level = DEBUG4
+- 22:51:45.172 INFO: Starting Mongoose 3.9c web server
+- 22:51:45.187 INFO: WWW directory: D:\rms\www\index.php
+- 22:51:45.187 INFO: Index files: localhost:8000
+- 22:51:45.187 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 22:51:45.187 INFO: CGI pattern: **.php$
+- 22:51:45.187 INFO: Hide files patterns: 
+- 22:51:45.187 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:51:45.203 INFO: Web server url: http://127.0.0.1:8000/
+- 22:51:45.203 INFO: remote_debugging_port = 55568
+- 22:51:45.203 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=55568
+- 22:51:45.359 DEBUG: App::OnContextInitialized()
+- 22:51:45.375 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:51:45.375 DEBUG: Window max width/height = 1842/1034
+- 22:51:45.375 DEBUG: GetBrowserWindow(): not found, hwnd = 67934
+- 22:51:45.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:51:45.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:51:45.375 DEBUG: StoreBrowserWindow(): hwnd = 67934
+- 22:51:45.531 DEBUG: ClientHandler::OnAfterCreated()
+- 22:51:45.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:51:45.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=B2A112047BD3AE05E61855E9D1296542 --mojo-platform-channel-handle=1852 /prefetch:2
+- 22:51:45.562 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:51:45.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5271DEED52DB38FBB2DE81343A405F4C --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5271DEED52DB38FBB2DE81343A405F4C --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[1117/225145.866:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:51:45.078 DEBUG: OnBrowserCreated()
+- 22:51:48.187 DEBUG: OnContextCreated()
+- 22:51:48.984 INFO: GET 200 /
+[1117/225148.132:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 22:51:48.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:51:48.906 INFO: GET 404 /public/image/login-logo.svg
+- 22:53:35.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 22:53:36.609 INFO: POST 302 /login_check
+- 22:53:38.500 DEBUG: OnContextCreated()
+- 22:53:38.312 INFO: GET 200 /Dashbroad
+[1117/225339.069:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 22:53:39.094 INFO: GET 404 /public/assets/style.css
+- 22:53:39.734 INFO: GET 404 /public/image/table.jpeg
+- 22:53:39.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 22:54:15.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 22:54:16.266 INFO: GET 302 /logout
+- 22:54:16.125 DEBUG: OnContextCreated()
+- 22:54:17.953 INFO: GET 200 /
+[1117/225417.081:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 22:54:17.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 22:54:17.641 INFO: GET 404 /public/image/login-logo.svg
+- 22:54:19.922 DEBUG: WM_DESTROY
+- 22:54:19.922 DEBUG: RemoveBrowserWindow(): hwnd = 67934
+- 22:54:20.969 INFO: Stopping Mongoose web server
+- 22:54:20.984 DEBUG: Mongoose webserver stopped immediately
+- 22:54:20.000 DEBUG: OnBeforeClose() hwnd=67942
+- 22:54:20.000 DEBUG: RemoveBrowserWindow(): hwnd = 67942
+- 22:54:20.000 DEBUG: GetBrowserWindow(): not found, hwnd = 67942
+- 22:54:20.016 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:54:20.016 DEBUG: Calling CefQuitMessageLoop()
+- 22:54:20.219 INFO: Ended application
+- 22:54:20.219 INFO: --------------------------------------------------------
+- 23:32:41.032 INFO: --------------------------------------------------------
+- 23:32:41.032 INFO: Started application
+- 23:32:41.032 INFO: Logging to: D:\rms\debug.log
+- 23:32:41.032 INFO: Log level = DEBUG4
+- 23:32:41.047 INFO: Starting Mongoose 3.9c web server
+- 23:32:41.047 INFO: WWW directory: D:\rms\www\index.php
+- 23:32:41.047 INFO: Index files: localhost:8000
+- 23:32:41.047 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 23:32:41.047 INFO: CGI pattern: **.php$
+- 23:32:41.047 INFO: Hide files patterns: 
+- 23:32:41.047 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:32:41.047 INFO: Web server url: http://127.0.0.1:8000/
+- 23:32:41.047 INFO: remote_debugging_port = 64517
+- 23:32:42.125 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=64517
+- 23:32:43.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=AC818DD7848CFA4A75EA1E8954DC1421 --mojo-platform-channel-handle=1920 /prefetch:2
+- 23:32:43.219 DEBUG: App::OnContextInitialized()
+- 23:32:43.219 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 23:32:43.219 DEBUG: Window max width/height = 1842/1034
+- 23:32:43.219 DEBUG: GetBrowserWindow(): not found, hwnd = 2885632
+- 23:32:43.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:32:43.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:32:43.219 DEBUG: StoreBrowserWindow(): hwnd = 2885632
+- 23:32:43.453 DEBUG: ClientHandler::OnAfterCreated()
+- 23:32:43.453 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:32:43.532 DEBUG: OnLoadingStateChange: loading=1, url=
+[1117/233243.524:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:32:43.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7E071C00828F7A8447C08C7BDF165E6B --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7E071C00828F7A8447C08C7BDF165E6B --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 23:32:43.250 DEBUG: OnBrowserCreated()
+- 23:32:46.282 INFO: GET 200 /
+- 23:32:46.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:33:43.860 DEBUG: WM_DESTROY
+- 23:33:43.860 DEBUG: RemoveBrowserWindow(): hwnd = 2885632
+- 23:33:43.860 INFO: Stopping Mongoose web server
+- 23:33:43.860 DEBUG: Mongoose webserver stopped immediately
+- 23:33:43.891 DEBUG: OnBeforeClose() hwnd=2230720
+- 23:33:43.891 DEBUG: RemoveBrowserWindow(): hwnd = 2230720
+- 23:33:43.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2230720
+- 23:33:43.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:33:43.891 DEBUG: Calling CefQuitMessageLoop()
+- 23:33:43.438 DEBUG: OnBrowserDestroyed()
+- 23:33:44.235 INFO: Ended application
+- 23:33:44.235 INFO: --------------------------------------------------------
+- 23:33:52.000 INFO: --------------------------------------------------------
+- 23:33:52.000 INFO: Started application
+- 23:33:52.000 INFO: Logging to: D:\rms\debug.log
+- 23:33:52.000 INFO: Log level = DEBUG4
+- 23:33:52.000 INFO: Starting Mongoose 3.9c web server
+- 23:33:52.000 INFO: WWW directory: D:\rms\www\index.php
+- 23:33:52.000 INFO: Index files: localhost:8000
+- 23:33:52.000 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 23:33:52.000 INFO: CGI pattern: **.php$
+- 23:33:52.000 INFO: Hide files patterns: 
+- 23:33:52.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:33:52.016 INFO: Web server url: http://127.0.0.1:8000/
+- 23:33:52.016 INFO: remote_debugging_port = 60919
+- 23:33:52.016 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=60919
+- 23:33:52.141 DEBUG: App::OnContextInitialized()
+- 23:33:52.141 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 23:33:52.141 DEBUG: Window max width/height = 1842/1034
+- 23:33:52.141 DEBUG: GetBrowserWindow(): not found, hwnd = 461210
+- 23:33:52.141 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:33:52.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:33:52.141 DEBUG: StoreBrowserWindow(): hwnd = 461210
+- 23:33:53.266 DEBUG: ClientHandler::OnAfterCreated()
+- 23:33:53.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:33:53.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:33:53.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=322FA2C6F1F939D6F09FE151489BCE06 --mojo-platform-channel-handle=1812 /prefetch:2
+- 23:33:53.015 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D15345E1316376113D0B60020BFFDFD6 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D15345E1316376113D0B60020BFFDFD6 --renderer-client-id=3 --mojo-platform-channel-handle=2332 /prefetch:1
+- 23:33:53.093 DEBUG: OnBrowserCreated()
+[1117/233353.321:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:33:56.641 INFO: GET 200 /
+- 23:33:56.734 DEBUG: OnContextCreated()
+[1117/233357.063:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:33:57.719 INFO: GET 404 /public/image/login-logo.svg
+- 23:33:57.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:34:23.829 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 23:34:24.969 INFO: POST 302 /login_check
+- 23:34:25.907 INFO: GET 200 /
+- 23:34:25.609 DEBUG: OnContextCreated()
+[1117/233425.885:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:34:26.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:34:26.907 INFO: GET 404 /public/image/login-logo.svg
+- 23:34:43.657 DEBUG: WM_DESTROY
+- 23:34:43.657 DEBUG: RemoveBrowserWindow(): hwnd = 461210
+- 23:34:43.657 INFO: Stopping Mongoose web server
+- 23:34:43.657 DEBUG: Mongoose webserver stopped immediately
+- 23:34:43.672 DEBUG: OnBeforeClose() hwnd=6228414
+- 23:34:43.672 DEBUG: RemoveBrowserWindow(): hwnd = 6228414
+- 23:34:43.672 DEBUG: GetBrowserWindow(): not found, hwnd = 6228414
+- 23:34:43.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:34:43.672 DEBUG: Calling CefQuitMessageLoop()
+- 23:34:43.938 INFO: Ended application
+- 23:34:43.938 INFO: --------------------------------------------------------
+- 23:36:01.015 INFO: --------------------------------------------------------
+- 23:36:01.015 INFO: Started application
+- 23:36:01.015 INFO: Logging to: D:\rms\debug.log
+- 23:36:01.015 INFO: Log level = DEBUG4
+- 23:36:01.015 INFO: Starting Mongoose 3.9c web server
+- 23:36:01.015 INFO: WWW directory: D:\rms\www\index.php
+- 23:36:01.015 INFO: Index files: localhost:8000
+- 23:36:01.015 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 23:36:01.015 INFO: CGI pattern: **.php$
+- 23:36:01.015 INFO: Hide files patterns: 
+- 23:36:01.015 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:36:01.015 INFO: Web server url: http://127.0.0.1:8000/
+- 23:36:01.015 INFO: remote_debugging_port = 54758
+- 23:36:01.031 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=54758
+- 23:36:01.140 DEBUG: App::OnContextInitialized()
+- 23:36:01.140 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 23:36:01.140 DEBUG: Window max width/height = 1842/1034
+- 23:36:01.140 DEBUG: GetBrowserWindow(): not found, hwnd = 6883782
+- 23:36:01.140 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:36:01.140 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:36:01.140 DEBUG: StoreBrowserWindow(): hwnd = 6883782
+- 23:36:01.250 DEBUG: ClientHandler::OnAfterCreated()
+- 23:36:01.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:36:01.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:36:01.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=6A42EC6249BD97D34C34B11761526C51 --mojo-platform-channel-handle=1836 /prefetch:2
+- 23:36:01.015 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E6306B26B52E5D8DE34F21B445335527 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E6306B26B52E5D8DE34F21B445335527 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 23:36:01.109 DEBUG: OnBrowserCreated()
+[1117/233601.638:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:36:03.265 DEBUG: OnContextCreated()
+- 23:36:03.765 INFO: GET 200 /
+[1117/233603.832:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:36:04.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:36:04.656 INFO: GET 404 /public/image/login-logo.svg
+- 23:36:14.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 23:36:16.312 INFO: POST 302 /login_check
+- 23:36:17.750 DEBUG: OnContextCreated()
+- 23:36:17.265 INFO: GET 200 /Dashbroad
+[1117/233618.222:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:36:18.250 INFO: GET 404 /public/assets/style.css
+- 23:36:18.250 INFO: GET 404 /public/image/table.jpeg
+- 23:36:19.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 23:37:54.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 23:37:57.578 DEBUG: OnContextCreated()
+- 23:37:57.109 INFO: GET 200 /Billing2/1
+[1117/233758.263:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:37:58.297 INFO: GET 404 /public/assets/style.css
+- 23:37:58.390 INFO: GET 404 /public/image/veg.png
+- 23:37:59.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 23:40:12.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 23:40:13.125 INFO: GET 200 /Dashbroad
+- 23:40:13.640 DEBUG: OnContextCreated()
+- 23:40:14.187 INFO: GET 404 /public/image/table.jpeg
+[1117/234014.275:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 23:40:14.297 INFO: GET 404 /public/assets/style.css
+- 23:40:14.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 00:13:29.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 00:13:32.422 DEBUG: OnContextCreated()
+- 00:13:32.937 INFO: GET 200 /Profile
+[1118/001333.841:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 00:13:33.859 INFO: GET 404 /public/assets/style.css
+- 00:13:34.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Profile
+- 00:13:42.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Profile
+- 00:13:43.859 DEBUG: OnContextCreated()
+- 00:13:43.375 INFO: GET 200 /Dashbroad
+[1118/001344.247:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 00:13:44.265 INFO: GET 404 /public/image/table.jpeg
+- 00:13:44.265 INFO: GET 404 /public/assets/style.css
+- 00:13:44.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 00:14:21.265 DEBUG: WM_DESTROY
+- 00:14:21.265 DEBUG: RemoveBrowserWindow(): hwnd = 6883782
+- 00:14:21.265 INFO: Stopping Mongoose web server
+- 00:14:21.265 DEBUG: Mongoose webserver stopped immediately
+- 00:14:21.281 DEBUG: OnBeforeClose() hwnd=1116622
+- 00:14:21.281 DEBUG: RemoveBrowserWindow(): hwnd = 1116622
+- 00:14:21.281 DEBUG: GetBrowserWindow(): not found, hwnd = 1116622
+- 00:14:21.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:14:21.297 DEBUG: Calling CefQuitMessageLoop()
+- 00:14:21.187 DEBUG: OnBrowserDestroyed()
+- 00:14:21.953 INFO: Ended application
+- 00:14:21.953 INFO: --------------------------------------------------------
+- 10:26:45.031 INFO: --------------------------------------------------------
+- 10:26:45.031 INFO: Started application
+- 10:26:45.031 INFO: Logging to: D:\rms\debug.log
+- 10:26:45.031 INFO: Log level = DEBUG4
+- 10:26:45.031 INFO: Starting Mongoose 3.9c web server
+- 10:26:45.031 INFO: WWW directory: D:\rms\www\index.php
+- 10:26:45.031 INFO: Index files: localhost:8000
+- 10:26:45.031 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 10:26:45.031 INFO: CGI pattern: **.php$
+- 10:26:45.031 INFO: Hide files patterns: 
+- 10:26:45.031 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:26:46.046 INFO: Web server url: http://127.0.0.1:8000/
+- 10:26:46.046 INFO: remote_debugging_port = 53755
+- 10:26:46.046 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=53755
+- 10:26:46.000 DEBUG: App::OnContextInitialized()
+- 10:26:46.000 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 10:26:46.000 DEBUG: Window max width/height = 1842/1034
+- 10:26:46.015 DEBUG: GetBrowserWindow(): not found, hwnd = 67190
+- 10:26:46.015 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:26:46.015 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:26:46.015 DEBUG: StoreBrowserWindow(): hwnd = 67190
+- 10:26:47.125 DEBUG: ClientHandler::OnAfterCreated()
+- 10:26:47.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:26:47.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:26:47.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E9BC0B5F9E51DB793495380E74FF4847 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E9BC0B5F9E51DB793495380E74FF4847 --renderer-client-id=3 --mojo-platform-channel-handle=2272 /prefetch:1
+- 10:26:47.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=546CE700A6C47480647B39943F07943C --mojo-platform-channel-handle=1836 /prefetch:2
+- 10:26:47.125 DEBUG: OnBrowserCreated()
+[1118/102648.574:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:27:08.781 INFO: GET 200 /
+- 10:27:09.171 DEBUG: OnContextCreated()
+[1118/102710.257:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 10:27:10.984 INFO: GET 404 /public/image/login-logo.svg
+- 10:27:10.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 10:35:10.000 DEBUG: WM_DESTROY
+- 10:35:10.000 DEBUG: RemoveBrowserWindow(): hwnd = 67190
+- 10:35:10.000 INFO: Stopping Mongoose web server
+- 10:35:10.000 DEBUG: Mongoose webserver stopped immediately
+- 10:35:10.031 DEBUG: OnBeforeClose() hwnd=67196
+- 10:35:10.031 DEBUG: RemoveBrowserWindow(): hwnd = 67196
+- 10:35:10.031 DEBUG: GetBrowserWindow(): not found, hwnd = 67196
+- 10:35:10.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:35:10.031 DEBUG: Calling CefQuitMessageLoop()
+- 10:35:11.078 DEBUG: OnBrowserDestroyed()
+- 10:35:11.531 INFO: Ended application
+- 10:35:11.531 INFO: --------------------------------------------------------
+- 10:35:28.000 INFO: --------------------------------------------------------
+- 10:35:28.000 INFO: Started application
+- 10:35:28.000 INFO: Logging to: D:\rms\debug.log
+- 10:35:28.000 INFO: Log level = DEBUG4
+- 10:35:28.000 INFO: Starting Mongoose 3.9c web server
+- 10:35:28.000 INFO: WWW directory: D:\rms\www\index.php
+- 10:35:28.000 INFO: Index files: localhost:8000
+- 10:35:28.000 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 10:35:28.000 INFO: CGI pattern: **.php$
+- 10:35:28.000 INFO: Hide files patterns: 
+- 10:35:28.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:35:28.016 INFO: Web server url: http://127.0.0.1:8000/
+- 10:35:28.016 INFO: remote_debugging_port = 55377
+- 10:35:28.016 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=55377
+- 10:35:28.141 DEBUG: App::OnContextInitialized()
+- 10:35:28.141 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 10:35:28.141 DEBUG: Window max width/height = 1842/1034
+- 10:35:28.156 DEBUG: GetBrowserWindow(): not found, hwnd = 591332
+- 10:35:28.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:35:28.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:35:28.156 DEBUG: StoreBrowserWindow(): hwnd = 591332
+- 10:35:28.266 DEBUG: ClientHandler::OnAfterCreated()
+- 10:35:28.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:35:28.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:35:28.015 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=7D7D57C5A6327C21C56A4CF131DE449B --mojo-platform-channel-handle=1820 /prefetch:2
+- 10:35:28.015 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A5C3526C0C27E36F6E4F894F5C54967F --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A5C3526C0C27E36F6E4F894F5C54967F --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 10:35:28.093 DEBUG: OnBrowserCreated()
+[1118/103528.697:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:35:31.797 DEBUG: OnContextCreated()
+- 10:35:31.266 INFO: GET 200 /
+[1118/103531.424:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 10:35:32.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 10:35:32.110 INFO: GET 404 /image/login-logo.svg
+- 10:42:46.453 DEBUG: WM_DESTROY
+- 10:42:46.453 DEBUG: RemoveBrowserWindow(): hwnd = 591332
+- 10:42:46.453 INFO: Stopping Mongoose web server
+- 10:42:46.453 DEBUG: Mongoose webserver stopped immediately
+- 10:42:46.453 DEBUG: OnBeforeClose() hwnd=919284
+- 10:42:46.453 DEBUG: RemoveBrowserWindow(): hwnd = 919284
+- 10:42:46.453 DEBUG: GetBrowserWindow(): not found, hwnd = 919284
+- 10:42:46.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:42:46.453 DEBUG: Calling CefQuitMessageLoop()
+- 10:42:46.797 INFO: Ended application
+- 10:42:46.797 INFO: --------------------------------------------------------
+- 10:42:58.015 INFO: --------------------------------------------------------
+- 10:42:58.015 INFO: Started application
+- 10:42:58.015 INFO: Logging to: D:\rms\debug.log
+- 10:42:58.015 INFO: Log level = DEBUG4
+- 10:42:58.015 INFO: Starting Mongoose 3.9c web server
+- 10:42:58.015 INFO: WWW directory: D:\rms\www\public\index.php
+- 10:42:58.015 INFO: Index files: localhost:8000
+- 10:42:58.015 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 10:42:58.015 INFO: CGI pattern: **.php$
+- 10:42:58.015 INFO: Hide files patterns: 
+- 10:42:58.031 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:42:58.031 INFO: Web server url: http://127.0.0.1:8000/
+- 10:42:58.031 INFO: remote_debugging_port = 54057
+- 10:42:58.031 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=54057
+- 10:42:58.156 DEBUG: App::OnContextInitialized()
+- 10:42:58.172 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 10:42:58.172 DEBUG: Window max width/height = 1842/1034
+- 10:42:58.172 DEBUG: GetBrowserWindow(): not found, hwnd = 198272
+- 10:42:58.172 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:42:58.172 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:42:58.172 DEBUG: StoreBrowserWindow(): hwnd = 198272
+- 10:42:59.297 DEBUG: ClientHandler::OnAfterCreated()
+- 10:42:59.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:42:59.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=76274FA6529D56A57AE06DC1EBE6AEAC --mojo-platform-channel-handle=1820 /prefetch:2
+- 10:42:59.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:42:59.016 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A479F48ED522A79A57410849F7F47FAF --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A479F48ED522A79A57410849F7F47FAF --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 10:42:59.094 DEBUG: OnBrowserCreated()
+[1118/104259.326:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:43:01.125 DEBUG: OnContextCreated()
+- 10:43:01.594 INFO: GET 200 /
+[1118/104301.403:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 10:43:02.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 10:43:02.437 INFO: GET 404 /image/login-logo.svg
+[1118/130006.791:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130011.795:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130016.808:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130021.837:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130026.855:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130031.939:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130036.939:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130041.944:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130046.952:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130051.956:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130056.960:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130101.973:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130106.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130111.990:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130117.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130122.008:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130127.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130132.027:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130137.037:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130142.048:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130147.053:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130152.056:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130157.064:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130202.072:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130207.087:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130212.109:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130217.118:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130222.126:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130227.144:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130232.146:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130237.165:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130242.176:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130247.189:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130252.209:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1118/130257.224:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 13:03:00.640 DEBUG: WM_DESTROY
+- 13:03:00.640 DEBUG: RemoveBrowserWindow(): hwnd = 198272
+- 13:03:00.640 INFO: Stopping Mongoose web server
+- 13:03:00.640 DEBUG: Mongoose webserver stopped immediately
+- 13:03:00.672 DEBUG: OnBeforeClose() hwnd=788204
+- 13:03:00.672 DEBUG: RemoveBrowserWindow(): hwnd = 788204
+- 13:03:00.672 DEBUG: GetBrowserWindow(): not found, hwnd = 788204
+- 13:03:00.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:03:00.672 DEBUG: Calling CefQuitMessageLoop()
+- 13:03:00.937 INFO: Ended application
+- 13:03:00.937 INFO: --------------------------------------------------------
+- 20:01:32.016 INFO: --------------------------------------------------------
+- 20:01:32.032 INFO: Started application
+- 20:01:32.032 INFO: Logging to: D:\rms\debug.log
+- 20:01:32.032 INFO: Log level = DEBUG4
+- 20:01:32.032 INFO: Starting Mongoose 3.9c web server
+- 20:01:32.032 INFO: WWW directory: D:\rms\www\public\index.php
+- 20:01:32.032 INFO: Index files: localhost:8000
+- 20:01:32.032 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 20:01:32.032 INFO: CGI pattern: **.php$
+- 20:01:32.032 INFO: Hide files patterns: 
+- 20:01:32.032 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:01:32.047 INFO: Web server url: http://127.0.0.1:8000/
+- 20:01:32.047 INFO: remote_debugging_port = 55290
+- 20:01:32.047 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=55290
+[1121/200133.422:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:01:33.563 DEBUG: App::OnContextInitialized()
+- 20:01:33.563 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:01:33.563 DEBUG: Window max width/height = 1842/1034
+- 20:01:33.578 DEBUG: GetBrowserWindow(): not found, hwnd = 264194
+- 20:01:33.578 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:01:33.578 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:01:33.578 DEBUG: StoreBrowserWindow(): hwnd = 264194
+- 20:01:33.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=0C898F1C66ACE6AED5E0F13840159E6E --mojo-platform-channel-handle=1848 /prefetch:2
+- 20:01:33.688 DEBUG: ClientHandler::OnAfterCreated()
+- 20:01:33.688 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:01:33.719 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:01:33.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F32A98E6617AB2FC23594ACDB880C4B7 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F32A98E6617AB2FC23594ACDB880C4B7 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 20:01:33.062 DEBUG: OnBrowserCreated()
+[1121/200134.710:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1121/200138.436:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200143.437:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200148.446:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:01:53.328 INFO: GET 200 /
+[1121/200153.454:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:01:54.781 DEBUG: OnContextCreated()
+[1121/200154.752:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:01:55.719 INFO: GET 404 /image/login-logo.svg
+- 20:01:56.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+[1121/200158.454:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200203.467:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200208.473:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200213.483:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200218.498:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200223.505:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200228.510:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200233.524:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200238.534:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200243.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200248.543:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200253.553:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200258.562:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200303.579:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200308.589:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200313.604:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200318.611:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200323.630:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200328.636:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200333.646:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200338.657:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200343.669:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200348.682:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200353.684:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200358.685:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200403.701:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200408.712:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200413.727:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200418.729:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200423.745:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200428.746:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200433.748:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200438.756:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200443.759:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200448.766:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200453.781:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200458.784:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200503.796:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200508.806:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200513.818:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200518.826:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200523.841:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200528.844:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200604.403:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1121/200609.416:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:08:20.391 DEBUG: WM_DESTROY
+- 20:08:20.391 DEBUG: RemoveBrowserWindow(): hwnd = 264194
+- 20:08:20.391 INFO: Stopping Mongoose web server
+- 20:08:20.391 DEBUG: Mongoose webserver stopped immediately
+- 20:08:20.407 DEBUG: OnBeforeClose() hwnd=329718
+- 20:08:20.407 DEBUG: RemoveBrowserWindow(): hwnd = 329718
+- 20:08:20.407 DEBUG: GetBrowserWindow(): not found, hwnd = 329718
+- 20:08:20.407 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:08:20.407 DEBUG: Calling CefQuitMessageLoop()
+- 20:08:21.157 INFO: Ended application
+- 20:08:21.157 INFO: --------------------------------------------------------
+- 20:08:39.047 INFO: --------------------------------------------------------
+- 20:08:39.047 INFO: Started application
+- 20:08:39.047 INFO: Logging to: D:\rms\debug.log
+- 20:08:39.047 INFO: Log level = DEBUG4
+- 20:08:39.047 INFO: Starting Mongoose 3.9c web server
+- 20:08:39.047 INFO: WWW directory: D:\rms\www\public\index.php
+- 20:08:39.047 INFO: Index files: localhost:8000
+- 20:08:39.047 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 20:08:39.047 INFO: CGI pattern: **.php$
+- 20:08:39.047 INFO: Hide files patterns: 
+- 20:08:39.047 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:08:39.047 INFO: Web server url: http://127.0.0.1:8000/
+- 20:08:39.047 INFO: remote_debugging_port = 49815
+- 20:08:39.078 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=49815
+- 20:08:39.172 DEBUG: App::OnContextInitialized()
+- 20:08:39.172 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:08:39.172 DEBUG: Window max width/height = 1842/1034
+- 20:08:39.187 DEBUG: GetBrowserWindow(): not found, hwnd = 329560
+- 20:08:39.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:08:39.187 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:08:39.187 DEBUG: StoreBrowserWindow(): hwnd = 329560
+- 20:08:39.281 DEBUG: ClientHandler::OnAfterCreated()
+- 20:08:39.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:08:39.312 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:08:39.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=2B686F1FFE8FE80FD4DD3BFD208FA5D4 --mojo-platform-channel-handle=1820 /prefetch:2
+- 20:08:39.000 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E94A4BA3DD5D35BDD84371CBC602A549 --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E94A4BA3DD5D35BDD84371CBC602A549 --renderer-client-id=3 --mojo-platform-channel-handle=2332 /prefetch:1
+- 20:08:39.047 DEBUG: OnBrowserCreated()
+[1121/200839.665:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:08:43.453 DEBUG: OnContextCreated()
+- 20:08:43.875 INFO: GET 200 /
+[1121/200844.255:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:08:44.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 20:08:44.594 INFO: GET 404 /image/login-logo.svg
+- 20:13:38.828 DEBUG: WM_DESTROY
+- 20:13:38.828 DEBUG: RemoveBrowserWindow(): hwnd = 329560
+- 20:13:38.828 INFO: Stopping Mongoose web server
+- 20:13:38.828 DEBUG: Mongoose webserver stopped immediately
+- 20:13:38.844 DEBUG: OnBeforeClose() hwnd=264200
+- 20:13:38.844 DEBUG: RemoveBrowserWindow(): hwnd = 264200
+- 20:13:38.844 DEBUG: GetBrowserWindow(): not found, hwnd = 264200
+- 20:13:38.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:13:38.844 DEBUG: Calling CefQuitMessageLoop()
+- 20:13:39.937 INFO: Ended application
+- 20:13:39.937 INFO: --------------------------------------------------------
+- 20:13:46.000 INFO: --------------------------------------------------------
+- 20:13:46.000 INFO: Started application
+- 20:13:46.000 INFO: Logging to: D:\rms\debug.log
+- 20:13:46.000 INFO: Log level = DEBUG4
+- 20:13:46.000 INFO: Starting Mongoose 3.9c web server
+- 20:13:46.000 INFO: WWW directory: D:\rms\www\public\index.php
+- 20:13:46.000 INFO: Index files: localhost:8000
+- 20:13:46.000 INFO: CGI interpreter: D:\rms\php\php-cgi.exe
+- 20:13:46.000 INFO: CGI pattern: **.php$
+- 20:13:46.000 INFO: Hide files patterns: 
+- 20:13:46.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:13:46.016 INFO: Web server url: http://127.0.0.1:8000/
+- 20:13:46.016 INFO: remote_debugging_port = 62508
+- 20:13:46.016 DEBUG: Command line string for the browser process: "D:\rms\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --remote-debugging-port=62508
+- 20:13:46.125 DEBUG: App::OnContextInitialized()
+- 20:13:46.125 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:13:46.125 DEBUG: Window max width/height = 1842/1034
+- 20:13:46.125 DEBUG: GetBrowserWindow(): not found, hwnd = 264232
+- 20:13:46.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:13:46.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:13:46.125 DEBUG: StoreBrowserWindow(): hwnd = 264232
+- 20:13:46.234 DEBUG: ClientHandler::OnAfterCreated()
+- 20:13:46.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:13:46.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:13:47.000 DEBUG: Command line string for the gpu-process process: "D:\rms\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\rms\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\rms\debug.log" --service-request-channel-token=E280601E0F567F9D49011F1CBCA22875 --mojo-platform-channel-handle=1820 /prefetch:2
+- 20:13:47.016 DEBUG: Command line string for the renderer process: "D:\rms\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=ED5BEC1439ACC48FA3AC989388B3618C --lang=en-US --lang=en-US --log-file="D:\rms\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=ED5BEC1439ACC48FA3AC989388B3618C --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 20:13:47.094 DEBUG: OnBrowserCreated()
+[1121/201347.253:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:13:49.156 DEBUG: OnContextCreated()
+- 20:13:49.547 INFO: GET 200 /
+[1121/201349.319:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:13:50.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 20:13:50.359 INFO: GET 404 /www/public/image/login-logo.svg
+- 20:13:56.187 DEBUG: WM_DESTROY
+- 20:13:56.187 DEBUG: RemoveBrowserWindow(): hwnd = 264232
+- 20:13:56.187 INFO: Stopping Mongoose web server
+- 20:13:56.187 DEBUG: Mongoose webserver stopped immediately
+- 20:13:56.219 DEBUG: OnBeforeClose() hwnd=329888
+- 20:13:56.219 DEBUG: RemoveBrowserWindow(): hwnd = 329888
+- 20:13:56.219 DEBUG: GetBrowserWindow(): not found, hwnd = 329888
+- 20:13:56.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:13:56.219 DEBUG: Calling CefQuitMessageLoop()
+- 20:13:57.391 INFO: Ended application
+- 20:13:57.391 INFO: --------------------------------------------------------
+- 19:33:41.015 INFO: --------------------------------------------------------
+- 19:33:41.031 INFO: Started application
+- 19:33:41.031 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 19:33:41.031 INFO: Log level = DEBUG4
+- 19:33:41.031 INFO: Starting Mongoose 3.9c web server
+- 19:33:41.031 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public\index.php
+- 19:33:41.031 INFO: Index files: localhost:8000
+- 19:33:41.031 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 19:33:41.031 INFO: CGI pattern: **.php$
+- 19:33:41.031 INFO: Hide files patterns: 
+- 19:33:41.031 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:33:41.046 INFO: Web server url: http://127.0.0.1:8000/
+- 19:33:41.046 INFO: remote_debugging_port = 58760
+- 19:33:41.046 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=58760
+- 19:33:42.016 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=E722C046A75E49185CE42BD7AB3A9BA3 --mojo-platform-channel-handle=1952 /prefetch:2
+- 19:33:42.953 DEBUG: App::OnContextInitialized()
+- 19:33:42.953 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:33:42.953 DEBUG: Window max width/height = 1842/1034
+- 19:33:42.953 DEBUG: GetBrowserWindow(): not found, hwnd = 199032
+- 19:33:42.953 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:33:42.968 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:33:42.968 DEBUG: StoreBrowserWindow(): hwnd = 199032
+- 19:33:42.093 DEBUG: ClientHandler::OnAfterCreated()
+- 19:33:42.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:33:42.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:33:43.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FFF2E98B40B2547DDF8EAA5810C96CCF --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FFF2E98B40B2547DDF8EAA5810C96CCF --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 19:33:43.172 DEBUG: OnBrowserCreated()
+[1125/193343.564:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:33:54.062 INFO: GET 200 /
+- 19:33:55.344 DEBUG: OnContextCreated()
+[1125/193355.887:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:33:55.062 INFO: GET 404 /public/assets/style.css
+- 19:33:56.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:34:28.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:34:30.859 INFO: POST 302 /login_check
+- 19:34:31.547 DEBUG: OnContextCreated()
+- 19:34:31.750 INFO: GET 200 /Dashbroad
+[1125/193431.920:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:34:31.093 INFO: GET 404 /public/assets/style.css
+- 19:34:32.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:36:05.296 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:36:06.640 INFO: GET 200 /Billing2/1
+- 19:36:06.453 DEBUG: OnContextCreated()
+[1125/193606.976:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:36:06.156 INFO: GET 404 /public/assets/style.css
+- 19:36:06.156 INFO: GET 404 /public/image/veg.png
+- 19:36:07.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:37:12.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:37:13.375 INFO: POST 302 /addMenu2
+- 19:37:13.625 DEBUG: OnContextCreated()
+- 19:37:13.812 INFO: GET 200 /Billing2/1
+[1125/193714.063:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:37:14.234 INFO: GET 404 /public/image/veg.png
+- 19:37:14.234 INFO: GET 404 /public/assets/style.css
+- 19:37:14.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:37:24.046 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:37:25.421 INFO: POST 302 /addMenu2
+- 19:37:25.672 DEBUG: OnContextCreated()
+- 19:37:25.859 INFO: GET 200 /Billing2/1
+- 19:37:26.265 INFO: GET 404 /public/image/veg.png
+[1125/193726.113:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:37:26.281 INFO: GET 404 /public/assets/style.css
+- 19:37:26.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:38:10.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:38:11.500 INFO: POST 302 /addMenu2
+- 19:38:11.797 DEBUG: OnContextCreated()
+- 19:38:11.984 INFO: GET 200 /Billing2/1
+[1125/193812.232:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:38:12.406 INFO: GET 404 /public/assets/style.css
+- 19:38:12.406 INFO: GET 404 /public/image/veg.png
+- 19:38:12.796 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:38:27.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:38:28.359 INFO: GET 302 /logout
+- 19:38:28.500 DEBUG: OnContextCreated()
+- 19:38:28.687 INFO: GET 200 /
+[1125/193828.860:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:38:28.031 INFO: GET 404 /public/assets/style.css
+- 19:38:28.046 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:39:09.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:39:09.968 INFO: POST 302 /login_check
+- 19:39:10.141 DEBUG: OnContextCreated()
+- 19:39:10.328 INFO: GET 200 /Dashbroad
+[1125/193910.506:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:39:10.671 INFO: GET 404 /public/assets/style.css
+- 19:39:10.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:39:20.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:39:20.969 DEBUG: OnContextCreated()
+- 19:39:21.171 INFO: GET 200 /Billing2/7
+[1125/193921.401:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:39:21.578 INFO: GET 404 /public/assets/style.css
+- 19:39:21.656 INFO: GET 404 /public/image/veg.png
+- 19:39:21.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/7
+- 19:39:28.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/7
+- 19:39:29.250 DEBUG: OnContextCreated()
+- 19:39:29.437 INFO: GET 200 /Dashbroad
+[1125/193929.602:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:39:29.781 INFO: GET 404 /public/assets/style.css
+- 19:39:29.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:39:58.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:39:58.516 DEBUG: OnContextCreated()
+- 19:39:58.703 INFO: GET 200 /Billing2/1
+[1125/193958.948:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:39:58.125 INFO: GET 404 /public/assets/style.css
+- 19:39:58.125 INFO: GET 404 /public/image/veg.png
+- 19:39:59.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:40:07.687 DEBUG: ClientHandler::OnAfterCreated()
+- 19:40:07.687 DEBUG: GetBrowserWindow(): not found, hwnd = 985396
+- 19:40:07.687 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 19:40:07.687 DEBUG: StoreBrowserWindow(): hwnd = 985396
+- 19:40:07.703 DEBUG: Centering popup window relative to its parent
+- 19:40:07.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0D1B9D127A8DDBDCDA3571238AC56BE9 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0D1B9D127A8DDBDCDA3571238AC56BE9 --renderer-client-id=4 --mojo-platform-channel-handle=3820 /prefetch:1
+- 19:40:07.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:40:07.078 DEBUG: OnBrowserCreated()
+- 19:40:07.094 DEBUG: OnContextCreated()
+- 19:40:07.125 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 19:40:08.781 INFO: GET 404 /public/assets/style.css
+- 19:40:56.453 DEBUG: OnBeforeClose() hwnd=985396
+- 19:40:56.453 DEBUG: RemoveBrowserWindow(): hwnd = 985396
+- 19:40:56.016 DEBUG: OnBrowserDestroyed()
+- 19:41:10.781 DEBUG: F5 pressed, reloading page
+- 19:41:10.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.171 DEBUG: F5 pressed, reloading page
+- 19:41:11.171 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.171 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.171 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.281 INFO: GET 200 /Billing2/1
+- 19:41:11.453 DEBUG: F5 pressed, reloading page
+- 19:41:11.453 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.640 DEBUG: F5 pressed, reloading page
+- 19:41:11.640 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.734 INFO: GET 200 /Billing2/1
+- 19:41:11.812 DEBUG: F5 pressed, reloading page
+- 19:41:11.812 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.000 DEBUG: F5 pressed, reloading page
+- 19:41:11.000 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:11.078 INFO: GET 200 /Billing2/1
+- 19:41:12.250 INFO: GET 200 /Billing2/1
+- 19:41:12.421 INFO: GET 200 /Billing2/1
+- 19:41:12.375 DEBUG: OnContextCreated()
+- 19:41:12.562 INFO: GET 200 /Billing2/1
+- 19:41:12.578 DEBUG: F5 pressed, reloading page
+- 19:41:12.906 DEBUG: F5 pressed, reloading page
+- 19:41:12.906 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:12.015 INFO: GET 404 /public/assets/style.css
+- 19:41:13.187 DEBUG: F5 pressed, reloading page
+- 19:41:13.187 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:13.421 DEBUG: F5 pressed, reloading page
+- 19:41:13.421 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:13.656 DEBUG: F5 pressed, reloading page
+- 19:41:13.656 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:13.671 INFO: GET 404 /public/image/veg.png
+- 19:41:13.734 INFO: GET 200 /Billing2/1
+- 19:41:13.750 INFO: GET 200 /Billing2/1
+- 19:41:13.000 INFO: GET 200 /Billing2/1
+- 19:41:14.203 INFO: GET 200 /Billing2/1
+- 19:41:14.109 DEBUG: OnContextCreated()
+- 19:41:14.296 INFO: GET 200 /Billing2/1
+- 19:41:14.421 DEBUG: F5 pressed, reloading page
+[1125/194114.321:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 9
+- 19:41:14.734 INFO: GET 404 /public/assets/style.css
+- 19:41:14.953 DEBUG: F5 pressed, reloading page
+- 19:41:14.953 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Billing2/1
+- 19:41:14.078 INFO: GET 200 /Billing2/1
+- 19:41:15.203 INFO: GET 404 /public/image/veg.png
+- 19:41:15.328 DEBUG: OnContextCreated()
+- 19:41:15.515 INFO: GET 200 /Billing2/1
+[1125/194115.790:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:41:15.968 INFO: GET 404 /public/assets/style.css
+- 19:41:15.109 INFO: GET 404 /public/image/veg.png
+- 19:41:16.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:31.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:41:31.625 DEBUG: OnContextCreated()
+- 19:41:31.812 INFO: GET 200 /Dashbroad
+[1125/194131.976:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:41:31.156 INFO: GET 404 /public/assets/style.css
+- 19:41:32.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:41:35.515 DEBUG: F5 pressed, reloading page
+- 19:41:35.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:41:35.688 DEBUG: OnContextCreated()
+- 19:41:35.875 INFO: GET 200 /Dashbroad
+- 19:41:35.031 DEBUG: F5 pressed, reloading page
+[1125/194135.921:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 21
+- 19:41:36.296 INFO: GET 404 /public/assets/style.css
+- 19:41:36.250 DEBUG: OnContextCreated()
+- 19:41:36.437 DEBUG: F5 pressed, reloading page
+- 19:41:36.453 INFO: GET 200 /Dashbroad
+- 19:41:36.875 INFO: GET 404 /public/assets/style.css
+- 19:41:36.703 DEBUG: OnContextCreated()
+- 19:41:36.906 INFO: GET 200 /Dashbroad
+[1125/194137.099:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:41:37.281 INFO: GET 404 /public/assets/style.css
+- 19:41:37.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:41:45.484 DEBUG: ClientHandler::OnAfterCreated()
+- 19:41:45.484 DEBUG: GetBrowserWindow(): not found, hwnd = 264478
+- 19:41:45.484 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 19:41:45.484 DEBUG: StoreBrowserWindow(): hwnd = 264478
+- 19:41:45.500 DEBUG: Centering popup window relative to its parent
+- 19:41:45.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:41:45.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1643F53ABD8006306EA057F7B794EF66 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1643F53ABD8006306EA057F7B794EF66 --renderer-client-id=5 --mojo-platform-channel-handle=2136 /prefetch:1
+- 19:41:45.016 DEBUG: OnBrowserCreated()
+- 19:41:45.047 DEBUG: OnContextCreated()
+- 19:41:45.750 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 19:41:46.281 INFO: GET 404 /public/assets/style.css
+- 19:41:50.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:41:50.641 DEBUG: OnContextCreated()
+- 19:41:50.843 INFO: GET 200 /Dashbroad
+[1125/194151.022:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:41:51.203 INFO: GET 404 /public/assets/style.css
+- 19:41:51.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:45:08.671 DEBUG: OnBeforeClose() hwnd=264478
+- 19:45:08.671 DEBUG: RemoveBrowserWindow(): hwnd = 264478
+- 19:45:14.828 DEBUG: WM_DESTROY
+- 19:45:14.828 DEBUG: RemoveBrowserWindow(): hwnd = 199032
+- 19:45:14.828 INFO: Stopping Mongoose web server
+- 19:45:14.828 DEBUG: Mongoose webserver stopped immediately
+- 19:45:14.828 DEBUG: OnBeforeClose() hwnd=264508
+- 19:45:14.828 DEBUG: RemoveBrowserWindow(): hwnd = 264508
+- 19:45:14.828 DEBUG: GetBrowserWindow(): not found, hwnd = 264508
+- 19:45:14.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:45:14.828 DEBUG: Calling CefQuitMessageLoop()
+- 19:45:15.203 INFO: Ended application
+- 19:45:15.203 INFO: --------------------------------------------------------
+- 19:45:23.000 INFO: --------------------------------------------------------
+- 19:45:23.000 INFO: Started application
+- 19:45:23.000 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 19:45:23.000 INFO: Log level = DEBUG4
+- 19:45:23.000 INFO: Starting Mongoose 3.9c web server
+- 19:45:23.000 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public\index.php
+- 19:45:23.000 INFO: Index files: localhost:8000
+- 19:45:23.000 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 19:45:23.000 INFO: CGI pattern: **.php$
+- 19:45:23.000 INFO: Hide files patterns: 
+- 19:45:23.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:45:23.000 INFO: Web server url: http://127.0.0.1:8000/
+- 19:45:23.000 INFO: remote_debugging_port = 63202
+- 19:45:23.000 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=63202
+- 19:45:23.062 DEBUG: App::OnContextInitialized()
+- 19:45:23.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:45:23.062 DEBUG: Window max width/height = 1842/1034
+- 19:45:23.062 DEBUG: GetBrowserWindow(): not found, hwnd = 919876
+- 19:45:23.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:45:23.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:45:23.062 DEBUG: StoreBrowserWindow(): hwnd = 919876
+- 19:45:23.125 DEBUG: ClientHandler::OnAfterCreated()
+- 19:45:23.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:45:23.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:45:23.000 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=362CDCDA7394325290D07D7A1EC521A3 --mojo-platform-channel-handle=1836 /prefetch:2
+- 19:45:23.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E22803431997EA604C7066D26AED4203 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E22803431997EA604C7066D26AED4203 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+[1125/194523.361:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:45:23.031 DEBUG: OnBrowserCreated()
+- 19:45:25.266 DEBUG: OnContextCreated()
+- 19:45:25.547 INFO: GET 200 /
+[1125/194526.053:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:45:26.000 INFO: GET 404 /public/assets/style.css
+- 19:45:26.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:45:45.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:45:46.016 INFO: POST 302 /login_check
+- 19:45:46.266 DEBUG: OnContextCreated()
+- 19:45:46.547 INFO: GET 200 /Dashbroad
+[1125/194546.940:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:45:46.875 INFO: GET 404 /WWW/public/assets/style.css
+- 19:45:47.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:45:57.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:45:58.703 DEBUG: OnContextCreated()
+- 19:45:58.000 INFO: GET 200 /Billing2/1
+[1125/194558.498:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:45:58.437 INFO: GET 404 /WWW/public/assets/style.css
+- 19:45:58.437 INFO: GET 404 /public/image/veg.png
+- 19:45:58.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Billing2/1
+- 19:46:07.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Billing2/1
+- 19:46:08.781 DEBUG: OnContextCreated()
+- 19:46:08.062 INFO: GET 200 /Dashbroad
+[1125/194608.524:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:46:08.469 INFO: GET 404 /WWW/public/assets/style.css
+- 19:46:08.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:46:16.266 DEBUG: ClientHandler::OnAfterCreated()
+- 19:46:16.266 DEBUG: GetBrowserWindow(): not found, hwnd = 919814
+- 19:46:16.266 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 19:46:16.266 DEBUG: StoreBrowserWindow(): hwnd = 919814
+- 19:46:16.266 DEBUG: Centering popup window relative to its parent
+- 19:46:16.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:46:16.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=08D18C931BEBE064F77270BD30C96311 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=08D18C931BEBE064F77270BD30C96311 --renderer-client-id=4 --mojo-platform-channel-handle=3528 /prefetch:1
+- 19:46:16.031 DEBUG: OnBrowserCreated()
+- 19:46:16.047 DEBUG: OnContextCreated()
+- 19:46:16.547 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 19:46:17.234 INFO: GET 404 /WWW/public/assets/style.css
+- 19:46:39.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:46:40.844 DEBUG: OnContextCreated()
+- 19:46:40.156 INFO: GET 200 /Dashbroad
+[1125/194640.565:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:46:40.500 INFO: GET 404 /WWW/public/assets/style.css
+- 19:46:40.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:23.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.016 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.266 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/Dashbroad
+- 19:47:24.437 INFO: GET 200 /Dashbroad
+- 19:47:24.547 INFO: GET 200 /Dashbroad
+- 19:47:24.469 DEBUG: OnContextCreated()
+- 19:47:24.781 INFO: GET 200 /Dashbroad
+[1125/194725.220:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:47:25.172 INFO: GET 404 /www/public/assets/style.css
+- 19:47:25.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/Dashbroad
+- 19:52:07.219 DEBUG: OnBeforeClose() hwnd=919814
+- 19:52:07.219 DEBUG: RemoveBrowserWindow(): hwnd = 919814
+- 19:52:07.109 DEBUG: OnBrowserDestroyed()
+- 19:52:07.469 DEBUG: WM_DESTROY
+- 19:52:07.469 DEBUG: RemoveBrowserWindow(): hwnd = 919876
+- 19:52:07.469 INFO: Stopping Mongoose web server
+- 19:52:07.469 DEBUG: Mongoose webserver stopped immediately
+- 19:52:07.469 DEBUG: OnBeforeClose() hwnd=1771820
+- 19:52:07.469 DEBUG: RemoveBrowserWindow(): hwnd = 1771820
+- 19:52:07.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1771820
+- 19:52:07.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:52:07.469 DEBUG: Calling CefQuitMessageLoop()
+- 19:52:07.203 DEBUG: OnBrowserDestroyed()
+- 19:52:07.672 INFO: Ended application
+- 19:52:07.672 INFO: --------------------------------------------------------
+- 19:52:11.016 INFO: --------------------------------------------------------
+- 19:52:11.016 INFO: Started application
+- 19:52:11.016 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 19:52:11.016 INFO: Log level = DEBUG4
+- 19:52:11.016 INFO: Starting Mongoose 3.9c web server
+- 19:52:11.016 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public
+- 19:52:11.016 INFO: Index files: index.php
+- 19:52:11.016 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 19:52:11.016 INFO: CGI pattern: **.php$
+- 19:52:11.016 INFO: Hide files patterns: 
+- 19:52:11.016 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:52:11.016 INFO: Web server url: http://127.0.0.1:54255/
+- 19:52:11.016 INFO: remote_debugging_port = 54139
+- 19:52:11.016 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=54139
+- 19:52:11.062 DEBUG: App::OnContextInitialized()
+- 19:52:11.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:52:11.062 DEBUG: Window max width/height = 1842/1034
+- 19:52:11.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1837356
+- 19:52:11.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:52:11.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:52:11.078 DEBUG: StoreBrowserWindow(): hwnd = 1837356
+- 19:52:11.125 DEBUG: ClientHandler::OnAfterCreated()
+- 19:52:11.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:52:11.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:52:11.000 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=8A32E27D8707CA2E92FA8748F48EAF3B --mojo-platform-channel-handle=1836 /prefetch:2
+- 19:52:11.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0F11A7C6D3F235397E8248E7C25A910C --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0F11A7C6D3F235397E8248E7C25A910C --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 19:52:11.031 DEBUG: OnBrowserCreated()
+[1125/195211.466:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:52:12.516 DEBUG: OnContextCreated()
+- 19:52:12.719 INFO: GET 200 /
+[1125/195213.240:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:52:13.062 INFO: GET 404 /public/assets/style.css
+- 19:52:13.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/
+- 19:52:35.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/
+- 19:52:35.469 INFO: POST 302 /login_check
+- 19:52:36.703 DEBUG: OnContextCreated()
+- 19:52:36.906 INFO: GET 200 /Dashbroad
+[1125/195236.441:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:52:36.250 INFO: GET 404 /www/public/assets/style.css
+- 19:52:36.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:52:43.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:52:43.375 DEBUG: OnContextCreated()
+- 19:52:43.594 INFO: GET 200 /Billing2/1
+[1125/195244.186:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:52:44.000 INFO: GET 404 /www/public/assets/style.css
+- 19:52:44.000 INFO: GET 404 /public/image/veg.png
+- 19:52:44.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Billing2/1
+- 19:53:07.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Billing2/1
+- 19:53:08.000 INFO: GET 200 /Dashbroad
+- 19:53:08.797 DEBUG: OnContextCreated()
+[1125/195308.521:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:53:08.344 INFO: GET 404 /www/public/assets/style.css
+- 19:53:08.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:53:13.312 DEBUG: ClientHandler::OnAfterCreated()
+- 19:53:13.312 DEBUG: GetBrowserWindow(): not found, hwnd = 3672338
+- 19:53:13.312 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 19:53:13.312 DEBUG: StoreBrowserWindow(): hwnd = 3672338
+- 19:53:13.312 DEBUG: Centering popup window relative to its parent
+- 19:53:13.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:53:13.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=77DC66C578A9672680A50783866387FD --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=77DC66C578A9672680A50783866387FD --renderer-client-id=4 --mojo-platform-channel-handle=2964 /prefetch:1
+- 19:53:13.016 DEBUG: OnBrowserCreated()
+- 19:53:13.047 DEBUG: OnContextCreated()
+- 19:53:13.594 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 19:53:14.234 INFO: GET 404 /www/public/assets/style.css
+- 19:53:22.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:53:22.047 DEBUG: OnContextCreated()
+- 19:53:22.281 INFO: GET 200 /Dashbroad
+[1125/195322.878:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:53:22.703 INFO: GET 404 /www/public/assets/style.css
+- 19:53:23.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:55:36.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:55:36.766 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:54255/Dashbroad
+- 19:55:36.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:55:36.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:55:37.047 INFO: GET 200 /Dashbroad
+- 19:55:37.000 DEBUG: OnContextCreated()
+- 19:55:37.219 INFO: GET 200 /Dashbroad
+[1125/195537.805:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:55:37.641 INFO: GET 404 /www/public/assets/style.css
+- 19:55:38.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:56:27.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:56:28.781 DEBUG: OnContextCreated()
+- 19:56:28.016 INFO: GET 200 /Dashbroad
+- 19:56:28.531 INFO: GET 404 /www/public/assets/style.css
+- 19:56:28.594 DEBUG: OnContextCreated()
+- 19:56:29.828 INFO: GET 200 /Dashbroad
+[1125/195629.561:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:56:29.359 INFO: GET 404 /www/public/assets/style.css
+- 19:56:29.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:56:30.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54255/Dashbroad
+- 19:56:31.016 DEBUG: OnContextCreated()
+- 19:56:31.266 INFO: GET 200 /Dashbroad
+[1125/195631.487:ERROR:CONSOLE(3711)] "Failed to get text for stylesheet 17440.30: No style sheet with given id found", source: chrome-devtools://devtools/inspector.js (3711)
+[1125/195631.941:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:56:32.797 INFO: GET 404 /www/public/assets/style.css
+- 19:56:32.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54255/Dashbroad
+- 19:56:55.344 DEBUG: OnBeforeClose() hwnd=3672338
+- 19:56:55.344 DEBUG: RemoveBrowserWindow(): hwnd = 3672338
+- 19:57:13.000 INFO: --------------------------------------------------------
+- 19:57:13.000 INFO: Started application
+- 19:57:13.016 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 19:57:13.016 INFO: Log level = DEBUG4
+- 19:57:13.016 INFO: Starting Mongoose 3.9c web server
+- 19:57:13.016 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public
+- 19:57:13.016 INFO: Index files: index.php
+- 19:57:13.016 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 19:57:13.016 INFO: CGI pattern: **.php$
+- 19:57:13.016 INFO: Hide files patterns: 
+- 19:57:13.016 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:57:13.016 INFO: Web server url: http://127.0.0.1:54486/
+- 19:57:13.016 INFO: remote_debugging_port = 55455
+- 19:57:13.016 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=55455
+- 19:57:13.078 DEBUG: App::OnContextInitialized()
+- 19:57:13.078 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:57:13.078 DEBUG: Window max width/height = 1842/1034
+- 19:57:13.078 DEBUG: GetBrowserWindow(): not found, hwnd = 461150
+- 19:57:13.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:57:13.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:57:13.078 DEBUG: StoreBrowserWindow(): hwnd = 461150
+- 19:57:13.156 DEBUG: ClientHandler::OnAfterCreated()
+- 19:57:13.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:57:13.000 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=B3F8CC30E68EB1D9C455387A173265F1 --mojo-platform-channel-handle=1836 /prefetch:2
+- 19:57:13.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:57:13.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EA20796233C5B59120F76E7AB1FDECE1 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EA20796233C5B59120F76E7AB1FDECE1 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[1125/195713.835:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:57:13.047 DEBUG: OnBrowserCreated()
+[1125/195713.882:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1125/195713.882:ERROR:cache_util.cc(134)] Unable to move cache folder D:\RestaurantManagementSoftware\webcache\GPUCache to D:\RestaurantManagementSoftware\webcache\old_GPUCache_000
+[1125/195713.882:ERROR:disk_cache.cc(132)] Unable to create cache
+[1125/195713.882:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[1125/195713.882:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1125/195713.882:ERROR:cache_util.cc(134)] Unable to move cache folder D:\RestaurantManagementSoftware\webcache\Cache to D:\RestaurantManagementSoftware\webcache\old_Cache_000
+[1125/195713.882:ERROR:disk_cache.cc(132)] Unable to create cache
+- 19:57:15.453 DEBUG: OnContextCreated()
+- 19:57:15.719 INFO: GET 200 /
+- 19:57:15.125 INFO: GET 404 /public/assets/style.css
+[1125/195715.995:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:57:16.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54486/
+- 19:57:48.359 DEBUG: WM_DESTROY
+- 19:57:48.359 DEBUG: RemoveBrowserWindow(): hwnd = 1837356
+- 19:57:48.359 INFO: Stopping Mongoose web server
+- 19:57:48.359 DEBUG: Mongoose webserver stopped immediately
+- 19:57:48.391 DEBUG: OnBeforeClose() hwnd=395570
+- 19:57:48.391 DEBUG: RemoveBrowserWindow(): hwnd = 395570
+- 19:57:48.391 DEBUG: GetBrowserWindow(): not found, hwnd = 395570
+- 19:57:48.391 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:57:48.391 DEBUG: Calling CefQuitMessageLoop()
+- 19:57:48.516 INFO: Ended application
+- 19:57:48.516 INFO: --------------------------------------------------------
+- 19:57:50.812 DEBUG: WM_DESTROY
+- 19:57:50.812 DEBUG: RemoveBrowserWindow(): hwnd = 461150
+- 19:57:50.812 INFO: Stopping Mongoose web server
+- 19:57:50.812 DEBUG: Mongoose webserver stopped immediately
+- 19:57:50.812 DEBUG: OnBeforeClose() hwnd=723282
+- 19:57:50.812 DEBUG: RemoveBrowserWindow(): hwnd = 723282
+- 19:57:50.812 DEBUG: GetBrowserWindow(): not found, hwnd = 723282
+- 19:57:50.812 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:57:50.812 DEBUG: Calling CefQuitMessageLoop()
+- 19:57:50.578 DEBUG: OnBrowserDestroyed()
+- 19:57:50.969 INFO: Ended application
+- 19:57:50.969 INFO: --------------------------------------------------------
+- 19:58:01.000 INFO: --------------------------------------------------------
+- 19:58:01.000 INFO: Started application
+- 19:58:01.000 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 19:58:01.000 INFO: Log level = DEBUG4
+- 19:58:01.000 INFO: Starting Mongoose 3.9c web server
+- 19:58:01.000 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public
+- 19:58:01.000 INFO: Index files: index.php
+- 19:58:01.000 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 19:58:01.000 INFO: CGI pattern: **.php$
+- 19:58:01.000 INFO: Hide files patterns: 
+- 19:58:01.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:58:01.000 INFO: Web server url: http://127.0.0.1:54518/
+- 19:58:01.000 INFO: remote_debugging_port = 58614
+- 19:58:01.000 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=58614
+- 19:58:01.062 DEBUG: App::OnContextInitialized()
+- 19:58:01.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 19:58:01.062 DEBUG: Window max width/height = 1842/1034
+- 19:58:01.062 DEBUG: GetBrowserWindow(): not found, hwnd = 788202
+- 19:58:01.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:58:01.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:58:01.062 DEBUG: StoreBrowserWindow(): hwnd = 788202
+- 19:58:01.125 DEBUG: ClientHandler::OnAfterCreated()
+- 19:58:01.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:58:01.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:58:01.015 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=79373582B12F4A11644AC8EC0BA9C426 --mojo-platform-channel-handle=1808 /prefetch:2
+- 19:58:01.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6AE06E6582BB6AF8E0C3BC431DFAF581 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6AE06E6582BB6AF8E0C3BC431DFAF581 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 19:58:01.047 DEBUG: OnBrowserCreated()
+[1125/195801.329:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:58:02.735 DEBUG: OnContextCreated()
+- 19:58:03.937 INFO: GET 200 /
+[1125/195803.388:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:58:03.328 INFO: GET 404 /public/assets/style.css
+- 19:58:03.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54518/
+- 19:58:10.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54518/
+- 19:58:10.719 INFO: POST 302 /login_check
+- 19:58:11.954 DEBUG: OnContextCreated()
+- 19:58:11.156 INFO: GET 200 /Dashbroad
+[1125/195811.544:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:58:11.484 INFO: GET 404 /www/public/assets/style.css
+- 19:58:11.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54518/Dashbroad
+- 19:58:26.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54518/Dashbroad
+- 19:58:26.641 DEBUG: OnContextCreated()
+- 19:58:26.828 INFO: GET 200 /Billing2/1
+[1125/195827.509:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 19:58:27.453 INFO: GET 404 /www/public/assets/style.css
+- 19:58:27.469 INFO: GET 404 /public/image/veg.png
+- 19:58:28.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54518/Billing2/1
+- 19:59:40.375 DEBUG: WM_DESTROY
+- 19:59:40.375 DEBUG: RemoveBrowserWindow(): hwnd = 788202
+- 19:59:40.375 INFO: Stopping Mongoose web server
+- 19:59:40.375 DEBUG: Mongoose webserver stopped immediately
+- 19:59:40.391 DEBUG: OnBeforeClose() hwnd=264764
+- 19:59:40.391 DEBUG: RemoveBrowserWindow(): hwnd = 264764
+- 19:59:40.391 DEBUG: GetBrowserWindow(): not found, hwnd = 264764
+- 19:59:40.391 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:59:40.391 DEBUG: Calling CefQuitMessageLoop()
+- 19:59:41.953 INFO: Ended application
+- 19:59:41.953 INFO: --------------------------------------------------------
+- 20:00:00.000 INFO: --------------------------------------------------------
+- 20:00:00.000 INFO: Started application
+- 20:00:00.000 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 20:00:00.000 INFO: Log level = DEBUG4
+- 20:00:00.000 INFO: Starting Mongoose 3.9c web server
+- 20:00:00.000 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public
+- 20:00:00.000 INFO: Index files: index.php
+- 20:00:00.000 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 20:00:00.000 INFO: CGI pattern: **.php$
+- 20:00:00.000 INFO: Hide files patterns: 
+- 20:00:00.000 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:00:00.000 INFO: Web server url: http://127.0.0.1:54586/
+- 20:00:00.000 INFO: remote_debugging_port = 64298
+- 20:00:00.000 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=64298
+[1125/200000.243:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:00.062 DEBUG: App::OnContextInitialized()
+- 20:00:00.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:00:00.062 DEBUG: Window max width/height = 1842/1034
+- 20:00:00.062 DEBUG: GetBrowserWindow(): not found, hwnd = 592254
+- 20:00:00.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:00:00.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:00:00.062 DEBUG: StoreBrowserWindow(): hwnd = 592254
+- 20:00:00.125 DEBUG: ClientHandler::OnAfterCreated()
+- 20:00:00.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:00:00.015 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=30FA127CEF9A2A81E4EAAD54FE4B0972 --mojo-platform-channel-handle=1832 /prefetch:2
+- 20:00:00.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:00:00.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3808C10F60481F54864A4D44BD950687 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3808C10F60481F54864A4D44BD950687 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 20:00:00.047 DEBUG: OnBrowserCreated()
+[1125/200000.478:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:00:01.984 DEBUG: OnContextCreated()
+- 20:00:01.187 INFO: GET 200 /
+[1125/200001.722:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:00:01.515 INFO: GET 404 /public/assets/style.css
+- 20:00:01.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54586/
+[1125/200005.255:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:09.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54586/
+[1125/200010.256:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:10.093 INFO: POST 302 /login_check
+- 20:00:10.265 DEBUG: OnContextCreated()
+- 20:00:10.468 INFO: GET 200 /Dashbroad
+[1125/200011.073:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:00:11.875 INFO: GET 404 /www/public/assets/style.css
+- 20:00:11.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54586/Dashbroad
+[1125/200015.270:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1125/200020.280:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:20.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54586/Dashbroad
+- 20:00:21.968 DEBUG: OnContextCreated()
+- 20:00:21.171 INFO: GET 200 /Billing2/1
+[1125/200021.777:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:00:21.578 INFO: GET 404 /www/public/assets/style.css
+- 20:00:21.625 INFO: GET 404 /public/image/veg.png
+- 20:00:22.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54586/Billing2/1
+[1125/200025.290:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1125/200030.295:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:30.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54586/Billing2/1
+- 20:00:31.672 DEBUG: OnContextCreated()
+- 20:00:31.875 INFO: GET 200 /Dashbroad
+[1125/200031.492:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 20:00:31.296 INFO: GET 404 /www/public/assets/style.css
+- 20:00:31.296 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54586/Dashbroad
+[1125/200035.301:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 20:00:37.359 DEBUG: WM_DESTROY
+- 20:00:37.359 DEBUG: RemoveBrowserWindow(): hwnd = 592254
+- 20:00:37.359 INFO: Stopping Mongoose web server
+- 20:00:37.359 DEBUG: Mongoose webserver stopped immediately
+- 20:00:37.390 DEBUG: OnBeforeClose() hwnd=1575308
+- 20:00:37.390 DEBUG: RemoveBrowserWindow(): hwnd = 1575308
+- 20:00:37.390 DEBUG: GetBrowserWindow(): not found, hwnd = 1575308
+- 20:00:37.390 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:00:37.390 DEBUG: Calling CefQuitMessageLoop()
+- 20:00:37.718 INFO: Ended application
+- 20:00:37.718 INFO: --------------------------------------------------------
+- 08:40:27.031 INFO: --------------------------------------------------------
+- 08:40:27.031 INFO: Started application
+- 08:40:27.031 INFO: Logging to: D:\RestaurantManagementSoftware\debug.log
+- 08:40:27.031 INFO: Log level = DEBUG4
+- 08:40:27.031 INFO: Starting Mongoose 3.9c web server
+- 08:40:27.031 INFO: WWW directory: D:\RestaurantManagementSoftware\www\public
+- 08:40:27.031 INFO: Index files: index.php
+- 08:40:27.031 INFO: CGI interpreter: D:\RestaurantManagementSoftware\php\php-cgi.exe
+- 08:40:27.031 INFO: CGI pattern: **.php$
+- 08:40:27.031 INFO: Hide files patterns: 
+- 08:40:27.031 INFO: CGI environment variables set: TMP=C:\Users\91816\AppData\Local\Temp\,TEMP=C:\Users\91816\AppData\Local\Temp\,TMPDIR=C:\Users\91816\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 08:40:27.031 INFO: Web server url: http://127.0.0.1:57739/
+- 08:40:27.031 INFO: remote_debugging_port = 58299
+- 08:40:27.031 DEBUG: Command line string for the browser process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --remote-debugging-port=58299
+[1126/084027.900:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:40:27.719 DEBUG: App::OnContextInitialized()
+- 08:40:27.719 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 08:40:27.719 DEBUG: Window max width/height = 1842/1034
+- 08:40:27.719 DEBUG: GetBrowserWindow(): not found, hwnd = 198048
+- 08:40:27.719 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 08:40:27.719 DEBUG: BrowserWindow::CreateBrowserControl()
+- 08:40:27.719 DEBUG: StoreBrowserWindow(): hwnd = 198048
+- 08:40:28.813 DEBUG: ClientHandler::OnAfterCreated()
+- 08:40:28.813 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 08:40:28.000 DEBUG: Command line string for the gpu-process process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.12044.8005 --gpu-driver-date=12-2-2022 --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --service-request-channel-token=9335E35CFB0D6146C16B24313F4BDA74 --mojo-platform-channel-handle=1824 /prefetch:2
+- 08:40:28.828 DEBUG: OnLoadingStateChange: loading=1, url=
+- 08:40:28.000 DEBUG: Command line string for the renderer process: "D:\RestaurantManagementSoftware\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4ECB39A08BC967D8952803A59B6BBDB0 --lang=en-US --lang=en-US --log-file="D:\RestaurantManagementSoftware\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4ECB39A08BC967D8952803A59B6BBDB0 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 08:40:28.063 DEBUG: OnBrowserCreated()
+[1126/084029.411:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1126/084032.932:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:40:35.594 DEBUG: OnContextCreated()
+- 08:40:35.610 INFO: GET 200 /
+[1126/084036.818:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 08:40:36.610 INFO: GET 404 /public/assets/style.css
+- 08:40:37.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57739/
+[1126/084037.943:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084042.951:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084047.955:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084052.969:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084057.970:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084102.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084108.009:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084113.022:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084118.040:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084123.059:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084128.070:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084133.074:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084138.075:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084143.075:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084148.077:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084153.082:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084158.097:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084203.099:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084208.100:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084213.121:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084218.133:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084223.139:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084228.143:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084233.150:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084238.160:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084243.171:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084248.172:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084253.178:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084258.186:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084303.214:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084308.224:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084313.227:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084318.239:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084323.243:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084328.249:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084333.255:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084338.377:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084343.401:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084348.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084353.420:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084358.422:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084403.432:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084408.445:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084413.453:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084418.455:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084423.456:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084428.462:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084433.476:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084438.483:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084443.488:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084448.493:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084453.507:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084458.513:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084503.513:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084508.523:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084513.554:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084518.565:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084523.579:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084528.594:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084533.595:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084538.599:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:45:41.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57739/
+[1126/084543.611:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:45:44.344 INFO: POST 302 /login_check
+- 08:45:45.438 INFO: GET 200 /Dashbroad
+- 08:45:45.547 DEBUG: OnContextCreated()
+[1126/084546.334:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 08:45:46.125 INFO: GET 404 /www/public/assets/style.css
+- 08:45:46.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57739/Dashbroad
+[1126/084548.618:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:45:50.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57739/Dashbroad
+- 08:45:51.985 DEBUG: OnContextCreated()
+- 08:45:51.953 INFO: GET 200 /Billing2/1
+[1126/084551.875:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js (6)
+- 08:45:51.672 INFO: GET 404 /www/public/assets/style.css
+- 08:45:51.688 INFO: GET 404 /public/image/veg.png
+- 08:45:52.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57739/Billing2/1
+[1126/084553.638:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084558.650:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084603.659:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084608.661:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1126/084613.684:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 08:46:16.672 DEBUG: WM_DESTROY
+- 08:46:16.672 DEBUG: RemoveBrowserWindow(): hwnd = 198048
+- 08:46:16.672 INFO: Stopping Mongoose web server
+- 08:46:16.688 DEBUG: Mongoose webserver stopped immediately
+- 08:46:16.735 DEBUG: OnBeforeClose() hwnd=263552
+- 08:46:16.735 DEBUG: RemoveBrowserWindow(): hwnd = 263552
+- 08:46:16.735 DEBUG: GetBrowserWindow(): not found, hwnd = 263552
+- 08:46:16.735 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 08:46:16.735 DEBUG: Calling CefQuitMessageLoop()
+- 08:46:17.078 DEBUG: OnBrowserDestroyed()
+- 08:46:17.500 INFO: Ended application
+- 08:46:17.500 INFO: --------------------------------------------------------
